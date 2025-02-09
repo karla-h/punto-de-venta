@@ -1,0 +1,58 @@
+/* Eliminar el subrayado por defecto de los enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Fondo blanco para todo el sidebar */
+.main-sidebar {
+    background-color: white !important;
+    color: #333; /* Color del texto */
+}
+
+/* Estilo de los botones en el sidebar */
+.nav-sidebar .nav-link {
+    background-color: white;
+    color: #000000; /* Letras en negro */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Asegura que los iconos sean negros por defecto */
+.nav-sidebar .nav-link i {
+    color: #333; /* Iconos en negro */
+}
+
+/* Hover: cuando pasas el mouse sobre el enlace */
+.nav-sidebar .nav-link:hover {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Letras en blanco */
+}
+
+.nav-sidebar .nav-link:hover i {
+    color: white; /* Iconos en blanco */
+}
+
+.nav-sidebar .nav-item.menu-open .nav-link i,
+.nav-sidebar .nav-link.active i {
+    color: white; /* Iconos en blanco cuando el enlace está activo */
+}
+
+.nav-sidebar .nav-item:hover i {
+    color: white; /* Iconos en blanco */
+}
+
+.nav-sidebar .nav-link.active i,
+.nav-sidebar .nav-item.menu-open .nav-link i {
+    color: white !important; /* Iconos blancos cuando está activo */
+}
+
+.brand-text {
+    color: #000000;
+}
+
+.nav-item:hover {
+    background-color: #cde5ff; /* Fondo azul */
+    color: #000000;
+    border-radius: 10px;
+}
+
+
